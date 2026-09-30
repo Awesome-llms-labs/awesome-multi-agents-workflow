@@ -4,6 +4,9 @@
 
 Single-agent frameworks are out of scope: every entry here is about **collaboration** — crews, swarms, supervisor teams, debates, handoffs, and the protocols and durable infrastructure underneath them.
 
+> **Scope:** This list is about multi-agent teams *as working systems*. Single-agent frameworks are out of scope; every entry concerns collaboration — crews, swarms, supervisor teams, debates, handoffs — and the products and infrastructure that run them: commercial/SaaS platforms, cloud multi-agent services, and durable execution infrastructure (retries, checkpoints, human-in-the-loop). For the underlying *coordination mechanisms* (protocols, memory systems, orchestration frameworks in depth, research papers), see [awesome-AI-agent-orchestration](https://github.com/awesome-llms-labs/awesome-AI-agent-orchestration); for the wider single-agent ecosystem, see [awesome-ai-agents](https://github.com/awesome-llms-labs/awesome-ai-agents).
+
+
 **Verification confidence:** every entry is stamped ✅ **verified** (facts checked on the official docs, repo, or paper page) or ⚠️ **unverified** (third-party or ambiguous). **Capabilities and licenses are never guessed** — if the official source is ambiguous, the entry says so. Machine-readable records live in [`data/multi-agent-workflows.json`](data/multi-agent-workflows.json) with a `verified` boolean per entry. **88 of 89 entries verified** on official sources (2026-09-29).
 
 ## 2026 Highlights
@@ -199,3 +202,4 @@ Entries and corrections are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). 
 ## License
 
 [MIT](LICENSE) © 2026 dakotac1994
+

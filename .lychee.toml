@@ -1,0 +1,22 @@
+# lychee link-checker config
+# Pre-emptive excludes for sites known to block automated checks.
+exclude = [
+  "https://www.producthunt.com",
+  "https://marktechpost.com",
+  "https://www.npmjs.com",
+  "https://npmjs.com",
+  "https://replit.com",  # bot-blocking (RemoteDisconnected on plain GET)
+  "https://platform.openai.com",  # 403 to automated checks; live for humans
+  "https://chatgpt.com",  # 403 to automated checks; live for humans
+  "https://claude.ai",  # 403 to automated checks; live for humans
+  "https://gemini.google.com",  # HTTP/2 errors to automated checks; live for humans
+  "https://platform.deepseek.com",  # 403 to automated checks; live for humans
+  "https://chat.deepseek.com",  # 403 to automated checks; live for humans
+  "https://www.meta.ai",  # 403 to automated checks; live for humans
+  "https://www.perplexity.ai",  # 403 to automated checks; live for humans
+  "https://fly.io",  # bot-hostile to automated checks
+  "https://chat.mistral.ai",  # 403 to automated checks; live for humans
+]
+# Be lenient with rate-limited hosts; retry before failing.
+max_retries = 3
+timeout = 30

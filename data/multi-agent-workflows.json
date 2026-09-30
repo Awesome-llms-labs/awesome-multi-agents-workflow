@@ -1,0 +1,1322 @@
+[
+ {
+  "name": "AgentScope",
+  "vendor": "agentscope-ai",
+  "url": "https://github.com/agentscope-ai/agentscope",
+  "description": "Multi-agent framework emphasizing agent teams and leader/worker coordination, planning, and human-agent interaction, with a visual multi-agent platform.",
+  "license": "Apache-2.0",
+  "category": "framework",
+  "verified": true,
+  "source_url": "https://github.com/agentscope-ai/agentscope",
+  "status": "active",
+  "gotchas": [
+   "Official repository README confirms Apache-2.0 license and describes agent teams, coordination, and planning as core capabilities"
+  ]
+ },
+ {
+  "name": "Agno",
+  "vendor": "Agno",
+  "url": "https://github.com/agno-agi/agno",
+  "description": "Lightweight open-source framework and runtime for building agents, teams, and workflows for production agentic AI, with a runtime environment for serving them.",
+  "license": "Apache-2.0",
+  "category": "framework",
+  "verified": true,
+  "source_url": "https://github.com/agno-agi/agno",
+  "status": "active",
+  "gotchas": [
+   "Official repository (agno-agi org) opened; metadata and README confirm Apache-2.0",
+   "Formerly Phidata",
+   "Actively developed"
+  ]
+ },
+ {
+  "name": "AutoGen",
+  "vendor": "Microsoft",
+  "url": "https://github.com/microsoft/autogen",
+  "description": "Microsoft Research framework for creating multi-agent AI applications that can act autonomously or work alongside humans; layered design with a Core API (message passing, event-driven agents, distributed runtime) and AgentChat (group chats, two-agent patterns), plus no-code AutoGen Studio.",
+  "license": "MIT",
+  "category": "framework",
+  "verified": true,
+  "source_url": "https://github.com/microsoft/autogen",
+  "status": "maintenance",
+  "gotchas": [
+   "Official repository opened; legal notices state code is MIT (LICENSE-CODE), docs/content are CC-BY-4.0",
+   "In maintenance mode as of 2026; Microsoft directs new users to the Microsoft Agent Framework",
+   "Magentic-One (a multi-agent team for web/code/file tasks) is implemented in this repo rather than standalone"
+  ]
+ },
+ {
+  "name": "CAMEL",
+  "vendor": "camel-ai",
+  "url": "https://github.com/camel-ai/camel",
+  "description": "Multi-agent framework supporting communicative agents, agent societies, role playing, task automation, code generation, communication, memory, and data generation/simulation.",
+  "license": "Apache-2.0",
+  "category": "framework",
+  "verified": true,
+  "source_url": "https://github.com/camel-ai/camel",
+  "status": "active",
+  "gotchas": [
+   "Official repository (camel-ai org) opened; repository metadata and README confirm Apache-2.0 license",
+   "Actively developed (~13k+ stars)"
+  ]
+ },
+ {
+  "name": "CrewAI",
+  "vendor": "CrewAI Inc.",
+  "url": "https://github.com/crewAIInc/crewAI",
+  "description": "Framework for building collaborative AI agent crews with defined roles, goals, and memory; Crews handle role-based collaboration while event-driven Flows enable more controlled, deterministic workflows.",
+  "license": "MIT",
+  "category": "framework",
+  "verified": true,
+  "source_url": "https://github.com/crewAIInc/crewAI",
+  "status": "active",
+  "gotchas": [
+   "Official repository confirms MIT license and documents both Crews and Flows",
+   "Very active project (~35k+ stars)",
+   "Official docs linked from the README: https://docs.crewai.com/"
+  ]
+ },
+ {
+  "name": "Google Agent Development Kit (ADK)",
+  "vendor": "Google",
+  "url": "https://github.com/google/adk-python",
+  "description": "Google's open-source agent development kit; code-first framework for building single agents and multi-agent systems with composition primitives such as sequential, parallel, and loop workflow agents plus sub-agent delegation.",
+  "license": "Apache-2.0",
+  "category": "framework",
+  "verified": true,
+  "source_url": "https://github.com/google/adk-python",
+  "status": "active",
+  "gotchas": [
+   "Python SDK; TypeScript and Go SDKs exist separately"
+  ]
+ },
+ {
+  "name": "LangGraph",
+  "vendor": "LangChain",
+  "url": "https://docs.langchain.com/oss/python/langgraph/overview",
+  "description": "Stateful orchestration layer for LangChain agents; models agents as nodes in a graph with durable execution, persistence, and streaming, supporting supervisor, sub-agent, and hierarchical multi-agent patterns.",
+  "license": "MIT",
+  "category": "framework",
+  "verified": true,
+  "source_url": "https://docs.langchain.com/oss/python/langgraph/overview",
+  "status": "active",
+  "gotchas": [
+   "Official LangChain documentation; official README carries an MIT badge",
+   "The core multi-agent orchestration primitive in the LangChain ecosystem"
+  ]
+ },
+ {
+  "name": "MetaGPT",
+  "vendor": "FoundationAgents",
+  "url": "https://github.com/FoundationAgents/MetaGPT",
+  "description": "Multi-agent framework implementing an SOP-driven 'software company' — role-based agents (product manager, architect, engineer, QA) collaborate to generate PRDs, designs, and code.",
+  "license": "MIT",
+  "category": "framework",
+  "verified": true,
+  "source_url": "https://github.com/FoundationAgents/MetaGPT",
+  "status": "active",
+  "gotchas": [
+   "Official repository (FoundationAgents org) confirmed MIT in repository search results",
+   "One of the pioneering role-based multi-agent frameworks"
+  ]
+ },
+ {
+  "name": "OpenAI Agents SDK",
+  "vendor": "OpenAI",
+  "url": "https://github.com/openai/openai-agents-python",
+  "description": "Lightweight open-source Python library for building agentic apps; multi-agent workflows are expressed through handoffs and agents-as-tools, with built-in tracing and guardrails.",
+  "license": "MIT",
+  "category": "framework",
+  "verified": true,
+  "source_url": "https://github.com/openai/openai-agents-python",
+  "status": "active",
+  "gotchas": [
+   "Official OpenAI repository opened; README describes it as a lightweight yet powerful framework for multi-agent workflows, MIT licensed",
+   "Supersedes the experimental OpenAI Swarm"
+  ]
+ },
+ {
+  "name": "PraisonAI",
+  "vendor": "PraisonAI",
+  "url": "https://docs.praison.ai",
+  "description": "Production-oriented multi-agent framework with self-reflection and low-code orchestration of role-based agent crews.",
+  "license": "MIT",
+  "category": "framework",
+  "verified": true,
+  "source_url": "https://docs.praison.ai",
+  "status": "active",
+  "gotchas": [
+   "Official documentation site opened; MIT badge confirmed in the docs source",
+   "Main repo is mervinpraison/praisonaidocs (docs) with the framework under the PraisonAI org"
+  ]
+ },
+ {
+  "name": "Semantic Kernel",
+  "vendor": "Microsoft",
+  "url": "https://github.com/microsoft/semantic-kernel",
+  "description": "Microsoft SDK for building AI agents and orchestrating agentic and multi-agent AI systems; lightweight open-source development kit that lets developers add agents and multi-agent orchestration to applications.",
+  "license": "MIT",
+  "category": "framework",
+  "verified": true,
+  "source_url": "https://github.com/microsoft/semantic-kernel",
+  "status": "active",
+  "gotchas": [
+   "Official Microsoft repository; README confirms MIT license and explicitly describes building and orchestrating multi-agent systems",
+   "Multi-language (Python, .NET, Java)"
+  ]
+ },
+ {
+  "name": "SmythOS Runtime Environment (SRE)",
+  "vendor": "SmythOS",
+  "url": "https://github.com/SmythOS/sre",
+  "description": "Open-source cloud-native runtime for agentic AI: runtime environment, SDK, and CLI for building, running, and managing agents locally, in cloud, or at the edge, with built-in security and 40+ production-ready components.",
+  "license": "MIT",
+  "category": "framework",
+  "verified": true,
+  "source_url": "https://github.com/SmythOS/sre",
+  "status": "active",
+  "gotchas": [
+   "Official repository (SmythOS org) opened; GitHub metadata confirms MIT license",
+   "Repository topics include multi-agent, multi-agent-systems, agent-framework, and orchestration",
+   "Newer project (created 2025-06-07, ~1.3k stars)"
+  ]
+ },
+ {
+  "name": "Bardeen",
+  "vendor": "Bardeen",
+  "url": "https://www.bardeen.ai/",
+  "description": "AI agents for go-to-market work: agentic web scraper, AI web search, contact enrichment, and AI lead qualification assembled into reusable playbooks across 100+ apps.",
+  "license": "proprietary",
+  "category": "platform",
+  "verified": true,
+  "source_url": "https://www.bardeen.ai/",
+  "status": "commercial",
+  "gotchas": [
+   "Repositioned from personal browser automation to B2B GTM (sales teams)",
+   "Free tier: 100 credits/mo; Basic $10/mo; Premium $50/mo",
+   "SOC 2, GDPR, CASA Tier 2/3"
+  ]
+ },
+ {
+  "name": "Beam AI",
+  "vendor": "Beam AI",
+  "url": "https://beam.ai/",
+  "description": "Agentic Process Automation platform: pre-built self-learning AI agent suites for finance, HR, customer service, and other ops; AgentOS supports multi-agent collaboration, cloud/on-prem/hybrid deployment.",
+  "license": "proprietary",
+  "category": "platform",
+  "verified": true,
+  "source_url": "https://beam.ai/",
+  "status": "commercial",
+  "gotchas": [
+   "Enterprise-focused, white-glove onboarding ('live in weeks'); claims 10M+ agent tasks processed for Fortune 500 customers",
+   "Also listed on AWS Marketplace"
+  ]
+ },
+ {
+  "name": "CrewAI AMP",
+  "vendor": "CrewAI Inc.",
+  "url": "https://www.crewai.com/",
+  "description": "CrewAI's commercial platform (AMP Cloud hosted, AMP Factory on customer infrastructure) for running multi-agent crews and flows in production.",
+  "license": "proprietary",
+  "category": "platform",
+  "verified": true,
+  "source_url": "https://www.crewai.com/",
+  "status": "commercial",
+  "gotchas": [
+   "Enterprise product is branded AMP (AMP Cloud hosted, AMP Factory on customer infra), not 'CrewAI Enterprise'",
+   "MIT open-source framework; commercial platform with a free tier"
+  ]
+ },
+ {
+  "name": "Dust",
+  "vendor": "Dust",
+  "url": "https://dust.tt",
+  "description": "'Multiplayer AI' platform where teams build and deploy AI agents in shared workspaces connected to company knowledge and 100+ tools; no-code agent builder, model-agnostic, enterprise governance.",
+  "license": "proprietary",
+  "category": "platform",
+  "verified": true,
+  "source_url": "https://dust.tt",
+  "status": "commercial",
+  "gotchas": [
+   "Paris/SF; $40M Series B May 2026 (Abstract, Sequoia), 3,000+ orgs, 300k+ agents deployed",
+   "SOC 2 Type II, GDPR, HIPAA-ready"
+  ]
+ },
+ {
+  "name": "Flowise",
+  "vendor": "FlowiseAI",
+  "url": "https://flowiseai.com/",
+  "description": "Visual drag-and-drop builder for agentic systems — multi-agent systems, chat assistants, RAG — deployable as API/SDK/embed; managed Flowise Cloud with Free/Starter/Pro tiers.",
+  "license": "Apache-2.0 (OSS core); proprietary (Cloud)",
+  "category": "platform",
+  "verified": true,
+  "source_url": "https://flowiseai.com/",
+  "status": "commercial",
+  "gotchas": [
+   "IMPORTANT: FlowiseAI archived the OSS GitHub repo on 2026-08-13 and wound the project down (support ended 2026-08-31)",
+   "Flowise Cloud still sells (Free $0, Starter $35/mo, Pro $65/mo as of Sept 2026), but upstream is unmaintained"
+  ]
+ },
+ {
+  "name": "Gumloop",
+  "vendor": "Gumloop",
+  "url": "https://www.gumloop.com",
+  "description": "No-code platform where business teams build and orchestrate AI agents and automations across Slack, Teams, and email; model-agnostic with BYOK and enterprise controls (SSO, RBAC, audit logs) via Gumstack.",
+  "license": "proprietary",
+  "category": "platform",
+  "verified": true,
+  "source_url": "https://www.gumloop.com",
+  "status": "commercial",
+  "gotchas": [
+   "Original visual workflows now labeled 'Legacy' — the product is agent-centric",
+   "Pro starts at $37/mo (20k credits); no free plan per Sept 2026 review"
+  ]
+ },
+ {
+  "name": "Lindy",
+  "vendor": "Lindy",
+  "url": "https://www.lindy.ai/",
+  "description": "No-code AI teammate that lives in Slack/iMessage and joins meetings; 40+ skills, reusable skills learning, 1,000+ integrations plus MCP, browser control on Pro+.",
+  "license": "proprietary",
+  "category": "platform",
+  "verified": true,
+  "source_url": "https://www.lindy.ai/",
+  "status": "commercial",
+  "gotchas": [
+   "Relaunched Feb 2026 from agent-builder to AI-assistant product; visual builder still exists for enterprise teams",
+   "Plans: Plus $29.99/mo, Pro $99.99/mo, Max $199.99/mo, Enterprise custom; $50 free credits, no card"
+  ]
+ },
+ {
+  "name": "Relevance AI",
+  "vendor": "Relevance AI",
+  "url": "https://relevanceai.com/",
+  "description": "Low/no-code 'AI workforce' platform for building, deploying, and managing teams of specialist agents and multi-agent workflows; Invent 2.0 (launched Sept 29, 2026) auto-builds agent workforces from process interviews.",
+  "license": "proprietary",
+  "category": "platform",
+  "verified": true,
+  "source_url": "https://relevanceai.com/",
+  "status": "commercial",
+  "gotchas": [
+   "Free tier exists historically; current positioning is enterprise-led (custom pricing)",
+   "SOC 2 Type II, GDPR",
+   "Used by Canva, Autodesk, Confluent"
+  ]
+ },
+ {
+  "name": "SmythOS",
+  "vendor": "SmythOS",
+  "url": "https://smythos.com",
+  "description": "Agent operating system: visual Agent Studio builder plus a cloud-to-edge runtime for building and deploying autonomous multi-agent systems; supports MCP client/server and agent-to-agent (A2A) collaboration.",
+  "license": "proprietary",
+  "category": "platform",
+  "verified": true,
+  "source_url": "https://smythos.com",
+  "status": "commercial",
+  "gotchas": [
+   "Commercial platform with MIT open-source runtime components (SmythOS SRE)",
+   "Deploy via APIs, webhooks, scheduled agents, chat widgets"
+  ]
+ },
+ {
+  "name": "Amazon Bedrock Agents — Multi-Agent Collaboration",
+  "vendor": "AWS",
+  "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/agents-multi-agent-collaboration.html",
+  "description": "Managed supervisor pattern: designate one Bedrock Agent as supervisor and associate collaborator sub-agents that plan, split tasks, work in parallel, and hand off via SUPERVISOR or SUPERVISOR_ROUTER modes.",
+  "license": "proprietary",
+  "category": "cloud",
+  "verified": true,
+  "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/agents-multi-agent-collaboration.html",
+  "status": "commercial",
+  "gotchas": [
+   "Part of Amazon Bedrock (AWS)",
+   "Region-limited (Bedrock Agents availability varies by AWS region)",
+   "Supervisor must be saved before collaborators can be attached"
+  ]
+ },
+ {
+  "name": "Cloudflare Agents",
+  "vendor": "Cloudflare",
+  "url": "https://developers.cloudflare.com/agents/",
+  "description": "Stateful agents on Cloudflare Workers (Durable Objects) that can call and coordinate other agents via getAgentByName; official examples include multi-agent workers/pipeline patterns.",
+  "license": "proprietary",
+  "category": "cloud",
+  "verified": true,
+  "source_url": "https://developers.cloudflare.com/agents/",
+  "status": "commercial",
+  "gotchas": [
+   "Agents SDK (MIT) is open source but the runtime is Cloudflare's managed Workers platform; orchestration is code-driven (no visual orchestrator)",
+   "Multi-agent patterns documented in the official cloudflare/agents examples repo"
+  ]
+ },
+ {
+  "name": "Databricks Mosaic AI — Supervisor Agent",
+  "vendor": "Databricks",
+  "url": "https://docs.databricks.com/aws/en/generative-ai/agent-framework/create-agent",
+  "description": "Managed agent platform on Databricks: build multi-agent systems with a Supervisor Agent that orchestrates Genie Agents, agent endpoints, Unity Catalog functions, MCP servers, and custom agents.",
+  "license": "proprietary",
+  "category": "cloud",
+  "verified": true,
+  "source_url": "https://docs.databricks.com/aws/en/generative-ai/agent-framework/create-agent",
+  "status": "commercial",
+  "gotchas": [
+   "Docs brand it as 'agents on Databricks' (Mosaic AI Agent Framework)",
+   "ResponsesAgent (MLflow 3) is the current authoring interface",
+   "Supervisor Agent and some features are in beta"
+  ]
+ },
+ {
+  "name": "Gemini Enterprise Agent Platform (Agent Runtime)",
+  "vendor": "Google Cloud",
+  "url": "https://google.github.io/adk-docs/",
+  "description": "Google's managed agent runtime (Vertex AI Agent Engine rebranded) for deploying ADK multi-agent orchestrations — sub_agents, AgentTool, and graph workflows — as a service.",
+  "license": "proprietary",
+  "category": "cloud",
+  "verified": true,
+  "source_url": "https://google.github.io/adk-docs/",
+  "status": "commercial",
+  "gotchas": [
+   "ADK itself is Apache-2.0 open source, but the managed runtime is a cloud service"
+  ]
+ },
+ {
+  "name": "IBM watsonx Orchestrate",
+  "vendor": "IBM",
+  "url": "https://www.ibm.com/think/topics/multi-agent-collaboration",
+  "description": "Enterprise multi-agent collaboration platform: supervisor/orchestrator routes work across skills (independent agents) via Intent Parser and Flow Orchestrator with shared context/memory store.",
+  "license": "proprietary",
+  "category": "cloud",
+  "verified": true,
+  "source_url": "https://www.ibm.com/think/topics/multi-agent-collaboration",
+  "status": "commercial",
+  "gotchas": [
+   "Verified on official IBM page stating watsonx Orchestrate 'makes it easy to enable multi-agent collaboration'",
+   "Dedicated docs at ibm.com/docs/en/watsonx-orchestrate (403 for the VM egress, not a product issue)",
+   "SaaS on IBM Cloud and AWS Marketplace; Agent Connect integrates external-framework agents"
+  ]
+ },
+ {
+  "name": "Microsoft Copilot Studio — Multi-Agent (Connected Agents)",
+  "vendor": "Microsoft",
+  "url": "https://learn.microsoft.com/en-us/training/modules/build-multi-agent-solutions-connected-agents-copilot-studio/",
+  "description": "Low-code agent platform where an orchestrator agent uses generative orchestration to delegate to connected specialist agents (Copilot Studio, Foundry, Fabric Data, A2A external agents).",
+  "license": "proprietary",
+  "category": "cloud",
+  "verified": true,
+  "source_url": "https://learn.microsoft.com/en-us/training/modules/build-multi-agent-solutions-connected-agents-copilot-studio/",
+  "status": "commercial",
+  "gotchas": [
+   "Official Learn training module (based on the classic Copilot Studio experience; a new experience shipped in 2026)",
+   "Multi-agent capability is preview/maturing; overlaps with Foundry workflows"
+  ]
+ },
+ {
+  "name": "Microsoft Foundry — Multi-Agent Workflows",
+  "vendor": "Microsoft",
+  "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/workflow",
+  "description": "Managed multi-agent orchestration in Foundry: visual/YAML workflows (Sequential, Group chat, Human-in-the-loop) invoking multiple Foundry agents with variables, versioning, and tracing.",
+  "license": "proprietary",
+  "category": "cloud",
+  "verified": true,
+  "source_url": "https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/workflow",
+  "status": "commercial",
+  "gotchas": [
+   "Renamed from 'Azure AI Foundry' to 'Microsoft Foundry' (2026)"
+  ]
+ },
+ {
+  "name": "Oracle AI Data Platform Workbench",
+  "vendor": "Oracle",
+  "url": "https://docs.oracle.com/en/cloud/paas/ai-data-platform/aidug/agent-creation.html",
+  "description": "Visual canvas builder for multi-agent systems on OCI: a Supervisor Agent node orchestrates executor specialist agents (SQL, RAG, HTTP, MCP tools) with memory and state-isolation policies.",
+  "license": "proprietary",
+  "category": "cloud",
+  "verified": true,
+  "source_url": "https://docs.oracle.com/en/cloud/paas/ai-data-platform/aidug/agent-creation.html",
+  "status": "commercial",
+  "gotchas": [
+   "Official docs.oracle.com 'Agent Creation' guide covers Multi-agent Systems and Supervisor Patterns",
+   "Backed by OCI Generative AI service models; related to (but a distinct, newer builder from) the OCI Generative AI Agents service"
+  ]
+ },
+ {
+  "name": "Salesforce Agentforce — Multi-Agent Orchestration",
+  "vendor": "Salesforce",
+  "url": "https://www.salesforce.com/agentforce/multi-agent-orchestration/",
+  "description": "Primary agent routes tasks to a team of specialist secondary agents powered by the Atlas Reasoning Engine, with A2A support for third-party agents and built-in observability.",
+  "license": "proprietary",
+  "category": "cloud",
+  "verified": true,
+  "source_url": "https://www.salesforce.com/agentforce/multi-agent-orchestration/",
+  "status": "commercial",
+  "gotchas": [
+   "Verified on the official Salesforce product page (marketing page rather than help docs)",
+   "GA as of Sept 2026"
+  ]
+ },
+ {
+  "name": "ServiceNow AI Agent Orchestrator",
+  "vendor": "ServiceNow",
+  "url": "https://www.servicenow.com/community/s/cgfwn76974/attachments/cgfwn76974/ceg-ai-coe-articles/59/2/ServiceNow_AI_Agents_Well-Architected_Review_v1.pdf",
+  "description": "Orchestrator coordinates teams of ServiceNow AI agents via Chain-of-Thought + ReAct, with shared memory across agent teams, AI Agent Studio, AI Agent Fabric (MCP/A2A), and AI Control Tower governance.",
+  "license": "proprietary",
+  "category": "cloud",
+  "verified": true,
+  "source_url": "https://www.servicenow.com/community/s/cgfwn76974/attachments/cgfwn76974/ceg-ai-coe-articles/59/2/ServiceNow_AI_Agents_Well-Architected_Review_v1.pdf",
+  "status": "commercial",
+  "gotchas": [
+   "Verified on official ServiceNow-hosted 'ServiceNow AI Agent Well-Architected Review' whitepaper (April 2026)",
+   "Now Assist / AI Agents are licensed per ServiceNow instance; GA since the Zurich release"
+  ]
+ },
+ {
+  "name": "A2A (Agent2Agent Protocol)",
+  "vendor": "Linux Foundation",
+  "url": "https://a2a-protocol.org",
+  "description": "Open protocol for peer-to-peer agent collaboration: agents publish an Agent Card at /.well-known/agent-card.json, then exchange tasks and messages over JSON-RPC 2.0, gRPC, or REST with SSE streaming and push notifications.",
+  "license": "Apache-2.0",
+  "category": "protocol",
+  "verified": true,
+  "source_url": "https://a2a-protocol.org",
+  "status": "active",
+  "gotchas": [
+   "Created by Google (Apr 2025), donated to the Linux Foundation / Agentic AI Foundation; v1.0.0 released 2026-03",
+   "IBM's ACP was merged into A2A (Aug 2025)",
+   "Complementary to MCP (agent-to-agent vs agent-to-tool)"
+  ]
+ },
+ {
+  "name": "ACP (Agent Communication Protocol)",
+  "vendor": "IBM / BeeAI",
+  "url": "https://agentcommunicationprotocol.dev",
+  "description": "REST-native OpenAPI-defined protocol for agent-to-agent invocation: Agent Manifest discovery (GET /agents), runs (POST /runs) with sync/SSE/async modes, MIME-typed multipart messages, and trajectory metadata.",
+  "license": "Apache-2.0",
+  "category": "protocol",
+  "verified": true,
+  "source_url": "https://agentcommunicationprotocol.dev",
+  "status": "maintenance",
+  "gotchas": [
+   "Launched by IBM Research Mar 2025; merged into A2A under the Linux Foundation (Aug 2025)",
+   "Reference repo i-am-bee/acp is archived — legacy/superseded, build on A2A instead"
+  ]
+ },
+ {
+  "name": "Agent Protocol",
+  "vendor": "AI Engineer Foundation",
+  "url": "https://agentprotocol.ai/",
+  "description": "Tech-agnostic OpenAPI specification defining a common REST interface for interacting with AI agents: create tasks (POST /ap/v1/agent/tasks), execute steps, and download/upload artifacts.",
+  "license": "n/a",
+  "category": "protocol",
+  "verified": true,
+  "source_url": "https://agentprotocol.ai/",
+  "status": "active",
+  "gotchas": [
+   "See the official source for current details."
+  ]
+ },
+ {
+  "name": "AGNTCY / OASF",
+  "vendor": "Cisco Outshift",
+  "url": "https://schema.oasf.outshift.com/",
+  "description": "Cisco Outshift-initiated open collective (now Linux Foundation) building the 'Internet of Agents': OASF is a standardized schema for describing agent capabilities/identity/IO (modeled on OCSF), plus an Agent Directory, SLIM secure messaging, and identity specs.",
+  "license": "Apache-2.0",
+  "category": "protocol",
+  "verified": true,
+  "source_url": "https://schema.oasf.outshift.com/",
+  "status": "active",
+  "gotchas": [
+   "A stack of specs/SDKs rather than one wire protocol; positioned to complement A2A and MCP",
+   "Includes Agent Connect Protocol (ACP) for messaging and SLIM (MLS-based, quantum-safe) transports"
+  ]
+ },
+ {
+  "name": "Agora",
+  "vendor": "open spec (community)",
+  "url": "https://agoraprotocol.org",
+  "description": "Decentralized protocol for LLM-agent communication: agents default to natural language for rare exchanges, then negotiate and exchange self-generated protocol documents (hash-identified) to use efficient routines for frequent interactions.",
+  "license": "MIT",
+  "category": "protocol",
+  "verified": true,
+  "source_url": "https://agoraprotocol.org",
+  "status": "active",
+  "gotchas": [
+   "Originated from Oxford research; fully decentralized with no central registry; MIT-licensed per the official FAQ"
+  ]
+ },
+ {
+  "name": "AITP (Agent Interaction & Transaction Protocol)",
+  "vendor": "open spec (community)",
+  "url": "https://aitp.dev",
+  "description": "NEAR AI's open protocol for cross-trust-boundary interaction: agents communicate over Chat Threads (largely compatible with the OpenAI Assistants/Threads format) with extensible Capabilities for structured exchanges like payments, forms, and generative UI.",
+  "license": "n/a",
+  "category": "protocol",
+  "verified": true,
+  "source_url": "https://aitp.dev",
+  "status": "active",
+  "gotchas": [
+   "Spec in progress; official docs show v0.1.0 Draft",
+   "Reference implementation target is agents on the NEAR AI Hub"
+  ]
+ },
+ {
+  "name": "ANP (Agent Network Protocol)",
+  "vendor": "open spec (community)",
+  "url": "https://agent-network-protocol.com",
+  "description": "Open protocol suite for the Agentic Web: did:wba decentralized identity, WNS human-readable handles, agent description and discovery documents, secure end-to-end messaging profiles, and application-layer protocols.",
+  "license": "n/a",
+  "category": "protocol",
+  "verified": true,
+  "source_url": "https://agent-network-protocol.com",
+  "status": "active",
+  "gotchas": [
+   "Spec organized around the ANP 1.1 release line; the meta-protocol specification remains a draft",
+   "Governance is a small GitHub community; adoption is thin outside China"
+  ]
+ },
+ {
+  "name": "AP2 (Agent Payments Protocol)",
+  "vendor": "open spec (community)",
+  "url": "https://ap2-protocol.org/",
+  "description": "Google's open protocol for agent payment authorization: agents carry cryptographically signed mandates (Intent/Checkout/Payment Mandates as SD-JWT verifiable credentials) so every party can prove a purchase was authorized and audit it later.",
+  "license": "n/a",
+  "category": "protocol",
+  "verified": true,
+  "source_url": "https://ap2-protocol.org/",
+  "status": "active",
+  "gotchas": [
+   "An authorization/audit layer, not a settlement rail; v0.2.0 (Apr 2026), standardization continuing in FIDO Alliance working groups",
+   "Originally an A2A AgentCard extension in v0.1; agent-to-agent delegation is out of scope in the current spec"
+  ]
+ },
+ {
+  "name": "Coral Protocol",
+  "vendor": "Coral",
+  "url": "https://docs.coralos.ai/about",
+  "description": "MCP-native multi-agent coordination platform: agents join shared sessions over MCP, collaborate via @mention-addressed threads, and can be listed in a registry with Solana-based micropayments to agent developers.",
+  "license": "n/a",
+  "category": "protocol",
+  "verified": true,
+  "source_url": "https://docs.coralos.ai/about",
+  "status": "active",
+  "gotchas": [
+   "More platform + coordination pattern than neutral standard; graph-based multi-agent architecture (Anemoi) rather than hierarchical orchestration"
+  ]
+ },
+ {
+  "name": "DIDComm",
+  "vendor": "open spec (community)",
+  "url": "https://aca-py.org/1.0.1/gettingStarted/DIDcommMsgs/",
+  "description": "Hyperledger/Aries messaging layer for secure agent-to-agent communication: DID-based, end-to-end encrypted, asynchronous messages (transport-agnostic) with standard protocol sequences (DID exchange, credential issuance, present-proof) on top.",
+  "license": "n/a",
+  "category": "protocol",
+  "verified": true,
+  "source_url": "https://aca-py.org/1.0.1/gettingStarted/DIDcommMsgs/",
+  "status": "active",
+  "gotchas": [
+   "Genuinely agent-oriented (Aries agents' messaging layer) but rooted in the self-sovereign-identity world; broader multi-agent ecosystem adoption is limited"
+  ]
+ },
+ {
+  "name": "Eclipse LMOS Protocol",
+  "vendor": "Eclipse Foundation",
+  "url": "https://eclipse.dev/lmos/",
+  "description": "Eclipse Foundation protocol built on W3C Web of Things architecture: JSON-LD agent/tool descriptions signed with W3C DIDs, metadata propagation and discovery, transport-agnostic communication (lmosprotocol subprotocol), and DID/OAuth2 security schemes.",
+  "license": "n/a",
+  "category": "protocol",
+  "verified": true,
+  "source_url": "https://eclipse.dev/lmos/",
+  "status": "active",
+  "gotchas": [
+   "Protocol text still work-in-progress (v1 namespace published); team signals intent to pursue W3C standardization",
+   "Eclipse project (EPL-typical licensing for Eclipse code, unverified)"
+  ]
+ },
+ {
+  "name": "FIPA-ACL / KQML",
+  "vendor": "FIPA (historic)",
+  "url": "https://github.com/awebai/a2ac/blob/HEAD/projects/fipa-acl.md",
+  "description": "The original agent communication languages: KQML (DARPA, 1993) and FIPA-ACL (ratified 2000) standardized speech-act performatives (inform, request, propose, cfp) and interaction protocols like contract-net and subscribe/notify.",
+  "license": "n/a",
+  "category": "protocol",
+  "verified": false,
+  "source_url": "",
+  "status": "archived",
+  "gotchas": [
+   "Historic/legacy: formal semantics and ontology overhead limited adoption; FIPA became an IEEE Computer Society committee in 2005"
+  ]
+ },
+ {
+  "name": "MCP (Model Context Protocol)",
+  "vendor": "Agentic AI Foundation",
+  "url": "https://modelcontextprotocol.io",
+  "description": "Open standard (Anthropic, now under the Agentic AI Foundation) that standardizes how LLM applications connect to external tools, data sources, and prompts via JSON-RPC 2.0 in a client-host-server model.",
+  "license": "n/a",
+  "category": "protocol",
+  "verified": true,
+  "source_url": "https://modelcontextprotocol.io",
+  "status": "active",
+  "gotchas": [
+   "Current spec revision 2026-07-28 (stateless redesign)"
+  ]
+ },
+ {
+  "name": "NANDA",
+  "vendor": "MIT Media Lab",
+  "url": "https://nanda.media.mit.edu/",
+  "description": "MIT Media Lab research infrastructure for the 'Internet of AI Agents': the NANDA Index (federated agent registry/name resolution), AgentFacts (capability documents signed as W3C Verifiable Credentials), and KYA third-party attestation.",
+  "license": "n/a",
+  "category": "protocol",
+  "verified": true,
+  "source_url": "https://nanda.media.mit.edu/",
+  "status": "active",
+  "gotchas": [
+   "Discovery and trust layer, not a messaging wire protocol — it sits above MCP and A2A and does protocol translation via the NANDA Adapter"
+  ]
+ },
+ {
+  "name": "Activepieces",
+  "vendor": "Activepieces",
+  "url": "https://www.activepieces.com/pieces/ai",
+  "description": "Open-source (Community Edition MIT) visual AI-automation platform: native AI pieces incl. a 'Run Agent' action that reasons through multi-step tasks with tools, human-in-the-loop approval pieces, and 280+ pieces published as MCP servers usable directly by LLMs in Claude Desktop/Cursor/Windsurf.",
+  "license": "MIT",
+  "category": "infra",
+  "verified": true,
+  "source_url": "https://www.activepieces.com/pieces/ai",
+  "status": "active",
+  "gotchas": [
+   "Community Edition is MIT; packages/ee/ (enterprise features) are under a separate Commercial License",
+   "Like n8n, more automation-platform than durable agent infra — included on the strength of the Run Agent action + MCP toolkit"
+  ]
+ },
+ {
+  "name": "Camunda",
+  "vendor": "Camunda",
+  "url": "https://github.com/camunda/camunda",
+  "description": "Enterprise process-orchestration platform (Zeebe engine) that added native agentic capabilities: GA'd AI Agent connector (8.8, Oct 2025) with ad-hoc sub-processes where the LLM dynamically picks BPMN activities, A2A client connectors, built-in MCP server, and ProcessOS agent intelligence layer (beta).",
+  "license": "proprietary",
+  "category": "infra",
+  "verified": true,
+  "source_url": "https://github.com/camunda/camunda",
+  "status": "active",
+  "gotchas": [
+   "Enterprise BPMN platform — heaviest fit in this list; engine is source-available under the Camunda License v1 (production requires Enterprise license), not OSS"
+  ]
+ },
+ {
+  "name": "DBOS",
+  "vendor": "DBOS Inc.",
+  "url": "https://docs.dbos.dev/",
+  "description": "Durable-execution library (Python/TypeScript/Go/Java) backed by Postgres: wrap any agent in DBOS workflows to checkpoint every LLM call and tool execution; first-party integrations for Vercel AI SDK (durableCalls middleware), OpenAI Agents SDK (DBOSRunner), Google ADK, and Pydantic AI.",
+  "license": "MIT",
+  "category": "infra",
+  "verified": true,
+  "source_url": "https://docs.dbos.dev/",
+  "status": "active",
+  "gotchas": [
+   "MIT across dbos-transact SDK repos",
+   "Lightweight approach: no separate orchestration cluster — durability lives in your app + Postgres",
+   "Official docs have a dedicated AI section (durable agents, parallelizing/scaling agents, HITL)"
+  ]
+ },
+ {
+  "name": "Hatchet",
+  "vendor": "Hatchet",
+  "url": "https://hatchet.run/",
+  "description": "Distributed, fault-tolerant task queue and DAG workflow engine backed by Postgres: named 'AI agents' as an official use case — define agentic workflows as code, retry failures, parallelize agent actions, with fair queuing, rate limits, durable sleeps/event waits, and OpenTelemetry.",
+  "license": "MIT",
+  "category": "infra",
+  "verified": true,
+  "source_url": "https://hatchet.run/",
+  "status": "active",
+  "gotchas": [
+   "Fully MIT licensed end-to-end; self-hosted or Hatchet Cloud",
+   "Younger project (0.x as of Sept 2026, ~7.9k stars) with fewer production war stories than Temporal; load-tested to ~10k tasks/s"
+  ]
+ },
+ {
+  "name": "Inngest",
+  "vendor": "Inngest",
+  "url": "https://www.inngest.com",
+  "description": "Event-driven durable-execution platform for TypeScript/Python/Go: write step functions (step.run/step.invoke/step.sendEvent) that look like normal code while Inngest handles retries, state, sleeps and event waits; first-class agent patterns (sync/async/scheduled sub-agent delegation) and durable AI-agent primitives.",
+  "license": "SSPL",
+  "category": "infra",
+  "verified": true,
+  "source_url": "https://www.inngest.com",
+  "status": "active",
+  "gotchas": [
+   "Self-hostable since Jan 2026, but licensed under SSPL (not OSI open-source)",
+   "Agent angle documented in Inngest's own blog ('durable AI agents', agentic patterns)",
+   "Best DX of the durable-execution class; lighter-weight than Temporal"
+  ]
+ },
+ {
+  "name": "LangSmith Deployment",
+  "vendor": "LangChain",
+  "url": "https://docs.langchain.com/langsmith/deployment-quickstart",
+  "description": "LangChain's managed deployment for LangGraph multi-agent applications (renamed from LangGraph Platform, Oct 2025); the framework itself stays MIT open source.",
+  "license": "proprietary",
+  "category": "infra",
+  "verified": true,
+  "source_url": "https://docs.langchain.com/langsmith/deployment-quickstart",
+  "status": "active",
+  "gotchas": [
+   "Renamed from LangGraph Platform to LangSmith Deployment in Oct 2025",
+   "Not full durable execution like Temporal — checkpointing + replay only"
+  ]
+ },
+ {
+  "name": "n8n",
+  "vendor": "n8n",
+  "url": "https://n8n.io",
+  "description": "Fair-code visual workflow automation platform with mature AI capabilities: LangChain-based AI Agent nodes (Chat Trigger → AI Agent → chat model + memory + tools), human approvals, 1500+ integrations; self-hostable or n8n Cloud.",
+  "license": "Sustainable Use License (fair-code)",
+  "category": "infra",
+  "verified": true,
+  "source_url": "https://n8n.io",
+  "status": "active",
+  "gotchas": [
+   "Source-available under the Sustainable Use License (fair-code, not OSI open-source)",
+   "More 'AI workflow automation' than durable multi-agent infra — no event-replay durability; HITL is webhook/Wait-node based",
+   "Included because its AI Agent nodes are real and widely used for agentic automation"
+  ]
+ },
+ {
+  "name": "Orkes Conductor",
+  "vendor": "Orkes",
+  "url": "https://orkes.io",
+  "description": "Open-source (Apache 2.0) event-driven agentic workflow engine, originally Netflix Conductor and maintained by Orkes: durable execution with native LLM task types (14+ providers), MCP tool calling, vector DB support for RAG, and human approval gates; scales to billions of executions.",
+  "license": "Apache-2.0 (OSS Conductor); proprietary (Orkes Cloud)",
+  "category": "infra",
+  "verified": true,
+  "source_url": "https://orkes.io",
+  "status": "active",
+  "gotchas": [
+   "OSS engine (github.com/conductor-oss/conductor) + Orkes SaaS enterprise offering",
+   "Agent features are native task types (not bolt-on)",
+   "Polyglot workers (Java/Python/Go/JS/C#/Ruby/Rust)"
+  ]
+ },
+ {
+  "name": "Prefect",
+  "vendor": "Prefect",
+  "url": "https://docs.prefect.io/",
+  "description": "Python-native workflow orchestration (@flow/@task decorators, retries, caching, scheduling): widely used as the orchestration layer under AI agents and agentic coding pipelines — durable per-agent runs with task-level observability, often paired with frameworks like Pydantic AI.",
+  "license": "Apache-2.0 (OSS); proprietary (Cloud)",
+  "category": "infra",
+  "verified": true,
+  "source_url": "https://docs.prefect.io/",
+  "status": "active",
+  "gotchas": [
+   "Core engine Apache-2.0 (note: /server directory is under the Prefect Community License)"
+  ]
+ },
+ {
+  "name": "Restack",
+  "vendor": "Restack",
+  "url": "https://www.restack.io/",
+  "description": "Enterprise AI agent platform and backend framework for building and deploying reliable AI agents: durable workflow orchestration, long-running agent execution, auto-generated REST APIs per agent/workflow, MCP tool exposure, Python/TypeScript SDKs on Kubernetes.",
+  "license": "unverified",
+  "category": "infra",
+  "verified": true,
+  "source_url": "https://www.restack.io/",
+  "status": "active",
+  "gotchas": [
+   "Proprietary platform (enterprise tier); orchestration layer is built on Temporal under the hood",
+   "Primarily commercial — open-source examples and SDKs, but the core platform is not OSS"
+  ]
+ },
+ {
+  "name": "Restate",
+  "vendor": "Restate",
+  "url": "https://docs.restate.dev/ai/patterns/durable-agents",
+  "description": "Open durable-execution foundation (Rust runtime + TS/Java/Python/Go/Kotlin SDKs) for building resilient agents: journals every step for crash recovery, durable promises for human-in-the-loop approvals, rollback/saga patterns for agents, and durableCalls middleware for Vercel AI SDK / LangChain / Pydantic AI.",
+  "license": "BSL-1.1 (runtime); MIT (SDKs)",
+  "category": "infra",
+  "verified": true,
+  "source_url": "https://docs.restate.dev/ai/patterns/durable-agents",
+  "status": "active",
+  "gotchas": [
+   "Runtime is BSL 1.1 source-available (not OSI open-source); SDKs are MIT",
+   "Dedicated AI docs (durable agents, HITL approvals, rollbacks)",
+   "Runs as a server in front of your agent service — similar footprint to a message broker"
+  ]
+ },
+ {
+  "name": "Temporal",
+  "vendor": "Temporal Technologies",
+  "url": "https://temporal.io",
+  "description": "Open-source durable-execution workflow engine (workflows/activities/signals); a first-class runtime for long-running multi-agent systems — official OpenAI Agents SDK integration (temporalio.contrib.openai_agents), framework-agnostic multi-agent fleets (Google ADK + LangGraph on Temporal), and durable human-in-the-loop signals.",
+  "license": "MIT",
+  "category": "infra",
+  "verified": true,
+  "source_url": "https://temporal.io",
+  "status": "active",
+  "gotchas": [
+   "Server is MIT (Go); SDKs vary",
+   "Agent integration evidence: official temporalio/sdk-python openai_agents plugin and Temporal's Aug 2026 multi-agent blog",
+   "Known pitfall from docs: separate task queues for slow LLM inference vs other activities to avoid starvation"
+  ]
+ },
+ {
+  "name": "Trigger.dev",
+  "vendor": "Trigger.dev",
+  "url": "https://trigger.dev",
+  "description": "Open-source (Apache 2.0) developer platform for building AI agents and long-running durable workflows in TypeScript: no timeouts, durable checkpointing, automatic retries, queues/concurrency, human-in-the-loop waitpoints, tool calling/MCP support, and an MCP server for AI coding assistants.",
+  "license": "Apache-2.0",
+  "category": "infra",
+  "verified": true,
+  "source_url": "https://trigger.dev",
+  "status": "active",
+  "gotchas": [
+   "Originally a background-jobs framework (HN 2023); relaunched v3 in Sep 2025 with explicit AI-agent focus (YC W23, ~15.2k stars)",
+   "Self-hostable via Docker Compose/Kubernetes or managed cloud"
+  ]
+ },
+ {
+  "name": "Windmill",
+  "vendor": "Windmill",
+  "url": "https://www.windmill.dev/",
+  "description": "Open-source developer platform/workflow engine that turns scripts (Python, TS, Go, Bash, SQL...) into workflows, webhooks and UIs: DAG flows with branching, retries, approval steps (human-in-the-loop), and a built-in MCP server that exposes workflows to AI agents.",
+  "license": "AGPL-3.0",
+  "category": "infra",
+  "verified": true,
+  "source_url": "https://www.windmill.dev/",
+  "status": "active",
+  "gotchas": [
+   "AGPLv3 core (copyleft — check implications for hosted use; some modules Apache-2.0)",
+   "~16k stars",
+   "Strong fit for script-centric agent tool execution, approval gates, and agent-triggered flows via MCP"
+  ]
+ },
+ {
+  "name": "AgentLite",
+  "vendor": "Salesforce AI Research",
+  "url": "https://arxiv.org/abs/2402.15538",
+  "description": "Salesforce AI Research's lightweight library for building task-oriented LLM agents and experimenting with reasoning strategies and multi-agent architectures.",
+  "license": "n/a",
+  "category": "research",
+  "verified": true,
+  "source_url": "https://arxiv.org/abs/2402.15538",
+  "status": "active",
+  "gotchas": [
+   "Paper + repo (SalesforceAIResearch/AgentLite); using arXiv URL"
+  ]
+ },
+ {
+  "name": "AgentVerse",
+  "vendor": "academia",
+  "url": "https://arxiv.org/abs/2308.10848",
+  "description": "Multi-agent framework that dynamically recruits and adjusts agent team composition during task-solving, and studies emergent positive/negative social behaviors of agent groups (ICLR 2024).",
+  "license": "n/a",
+  "category": "research",
+  "verified": true,
+  "source_url": "https://arxiv.org/abs/2308.10848",
+  "status": "active",
+  "gotchas": [
+   "Paper + repo (OpenBMB/AgentVerse); using arXiv URL"
+  ]
+ },
+ {
+  "name": "AutoAgents",
+  "vendor": "academia",
+  "url": "https://arxiv.org/abs/2309.17288",
+  "description": "Automatically generates and coordinates a team of specialized agents adapted to the task at hand, with an observer role reflecting on plans and agent responses to improve coherence.",
+  "license": "n/a",
+  "category": "research",
+  "verified": true,
+  "source_url": "https://arxiv.org/abs/2309.17288",
+  "status": "active",
+  "gotchas": [
+   "Paper + repo (Link-AGI/AutoAgents); using arXiv URL"
+  ]
+ },
+ {
+  "name": "AutoGen (paper)",
+  "vendor": "Microsoft Research",
+  "url": "https://arxiv.org/abs/2308.08155",
+  "description": "Microsoft framework for building LLM applications through multi-agent conversation: 'conversable agents' combine LLMs, tools, and human input orchestrated via conversation programming.",
+  "license": "n/a",
+  "category": "research",
+  "verified": true,
+  "source_url": "https://arxiv.org/abs/2308.08155",
+  "status": "active",
+  "gotchas": [
+   "Paper + repo (microsoft/autogen); using arXiv URL"
+  ]
+ },
+ {
+  "name": "CAMEL: Communicative Agents",
+  "vendor": "camel-ai",
+  "url": "https://arxiv.org/abs/2303.17760",
+  "description": "Role-playing framework where two LLM agents (AI User and AI Assistant) autonomously cooperate via 'inception prompting' to complete complex tasks; foundational work on communicative agents (NeurIPS 2023).",
+  "license": "n/a",
+  "category": "research",
+  "verified": true,
+  "source_url": "https://arxiv.org/abs/2303.17760",
+  "status": "active",
+  "gotchas": [
+   "Paper + open-source repo (camel-ai/camel, Apache 2.0 for code); using arXiv URL"
+  ]
+ },
+ {
+  "name": "ChatDev",
+  "vendor": "academia",
+  "url": "https://arxiv.org/abs/2307.07924",
+  "description": "Virtual software company: role-playing agents (CEO, CTO, programmer, reviewer, tester) collaborate through a 'chat chain' with communicative dehallucination to build complete software (ACL 2024).",
+  "license": "n/a",
+  "category": "research",
+  "verified": true,
+  "source_url": "https://arxiv.org/abs/2307.07924",
+  "status": "active",
+  "gotchas": [
+   "Paper + repo (OpenBMB/ChatDev, Apache 2.0 code / CC BY-NC 4.0 data); using arXiv URL"
+  ]
+ },
+ {
+  "name": "DyLAN",
+  "vendor": "academia",
+  "url": "https://arxiv.org/abs/2310.02170",
+  "description": "Dynamic LLM-agent network: automatically selects an agent team from a candidate pool and deactivates underperforming agents mid-task via an LLM ranker, with early stopping for efficiency.",
+  "license": "n/a",
+  "category": "research",
+  "verified": true,
+  "source_url": "https://arxiv.org/abs/2310.02170",
+  "status": "active",
+  "gotchas": [
+   "Paper + repo (SALT-NLP/DyLAN); using arXiv URL"
+  ]
+ },
+ {
+  "name": "Generative Agents",
+  "vendor": "Stanford",
+  "url": "https://arxiv.org/abs/2304.03442",
+  "description": "Stanford 'Smallville' simulation: 25 memory-enabled LLM agents exhibit believable emergent social behavior (information diffusion, relationship formation) in a sandbox world (UIST 2023).",
+  "license": "n/a",
+  "category": "research",
+  "verified": true,
+  "source_url": "https://arxiv.org/abs/2304.03442",
+  "status": "active",
+  "gotchas": [
+   "A social simulation rather than a workflow framework; included for its multi-agent social-behavior relevance and influence on later multi-agent simulation work"
+  ]
+ },
+ {
+  "name": "Magentic-One",
+  "vendor": "Microsoft Research",
+  "url": "https://arxiv.org/abs/2411.04468",
+  "description": "Microsoft Research's generalist multi-agent system: a lead Orchestrator plans, delegates to specialist agents (web browsing, file handling, coding), and recovers from errors across GAIA, AssistantBench, and WebArena.",
+  "license": "n/a",
+  "category": "research",
+  "verified": true,
+  "source_url": "https://arxiv.org/abs/2411.04468",
+  "status": "active",
+  "gotchas": [
+   "Research system with open-source implementation in microsoft/autogen; using arXiv URL"
+  ]
+ },
+ {
+  "name": "MetaAgents",
+  "vendor": "academia",
+  "url": "https://arxiv.org/abs/2310.06500",
+  "description": "Collaborative generative agents with human-like reasoning and specialized skills coordinate in a simulated job-fair environment to study team formation and task-oriented multi-agent coordination.",
+  "license": "n/a",
+  "category": "research",
+  "verified": true,
+  "source_url": "https://arxiv.org/abs/2310.06500",
+  "status": "active",
+  "gotchas": [
+   "Latest arXiv revision (2025) retitles it 'MetaAgents: Large Language Model Based Agents for Decision-Making on Teaming'; same paper, same ID"
+  ]
+ },
+ {
+  "name": "MetaGPT (paper)",
+  "vendor": "DeepWisdom",
+  "url": "https://arxiv.org/abs/2308.00352",
+  "description": "Encodes human Standard Operating Procedures (SOPs) into multi-agent collaboration: specialized roles exchange structured artifacts via a shared message pool to build software (ICLR 2024 oral).",
+  "license": "n/a",
+  "category": "research",
+  "verified": true,
+  "source_url": "https://arxiv.org/abs/2308.00352",
+  "status": "active",
+  "gotchas": [
+   "Paper + repo (geekan/FoundationAgents MetaGPT, MIT); using arXiv URL"
+  ]
+ },
+ {
+  "name": "Multiagent Debate",
+  "vendor": "academia",
+  "url": "https://arxiv.org/abs/2305.14325",
+  "description": "Multiple LLM instances independently propose answers, then debate their reasoning over several rounds to converge on a more factual and better-reasoned final answer (ICML 2024).",
+  "license": "n/a",
+  "category": "research",
+  "verified": true,
+  "source_url": "https://arxiv.org/abs/2305.14325",
+  "status": "active",
+  "gotchas": [
+   "Founding paper of the multi-agent-debate sub-literature; the 'MultiAgent Debate (Du et al.)' entry merged here"
+  ]
+ },
+ {
+  "name": "AucArena",
+  "vendor": "academia",
+  "url": "https://arxiv.org/abs/2310.05746",
+  "description": "Evaluation suite simulating auctions where LLM bidding agents compete under budgets, benchmarking strategic planning and execution (budget management, goal adherence, adaptive strategy) in dynamic competitive multi-agent scenarios.",
+  "license": "n/a",
+  "category": "benchmark",
+  "verified": true,
+  "source_url": "https://arxiv.org/abs/2310.05746",
+  "status": "active",
+  "gotchas": [
+   "Official suite name is 'AucArena' (paper: 'Put Your Money Where Your Mouth Is...'); third-party lists call it 'AuctionArena'"
+  ]
+ },
+ {
+  "name": "BattleAgentBench",
+  "vendor": "Tsinghua KEG",
+  "url": "https://arxiv.org/abs/2408.15971",
+  "description": "Turn-based Battle City wargame benchmark with 7 sub-stages across 3 difficulty tiers that separately assess single-agent navigation, paired-agent task execution, and full multi-agent (2-team, 4-team, 8-agent) cooperation and competition.",
+  "license": "n/a",
+  "category": "benchmark",
+  "verified": true,
+  "source_url": "https://arxiv.org/abs/2408.15971",
+  "status": "active",
+  "gotchas": [
+   "Tsinghua KEG, arXiv 2024; Level 1 is single-agent — multi-agent relevance is Levels 2–3"
+  ]
+ },
+ {
+  "name": "Collab-Overcooked",
+  "vendor": "academia",
+  "url": "https://arxiv.org/abs/2502.20073",
+  "description": "Two LLM agents cooperate via natural language in an extended Overcooked-AI kitchen across 30 open-ended tasks at 6 complexity levels, evaluated with process-oriented collaboration metrics (initiate vs. respond, trajectory efficiency).",
+  "license": "n/a",
+  "category": "benchmark",
+  "verified": true,
+  "source_url": "https://arxiv.org/abs/2502.20073",
+  "status": "active",
+  "gotchas": [
+   "EMNLP 2025 Main; collaboration-focused (not competitive); open-source code at the repo linked in the paper"
+  ]
+ },
+ {
+  "name": "GameEval",
+  "vendor": "academia",
+  "url": "https://arxiv.org/abs/2308.10032",
+  "description": "Goal-driven conversational games (Ask-Guess, SpyFall, TofuKingdom) where LLM players take distinct roles with cooperative or adversarial objectives, probing cooperative/adversarial strategy, deception, multi-hop reasoning, and long-term planning.",
+  "license": "n/a",
+  "category": "benchmark",
+  "verified": true,
+  "source_url": "https://arxiv.org/abs/2308.10032",
+  "status": "active",
+  "gotchas": [
+   "Code on GitHub is a third-party mirror (jordddan/gameeval); the paper's official code was released anonymously; license not confirmed"
+  ]
+ },
+ {
+  "name": "LLM-Coordination (LLM-Co)",
+  "vendor": "UCSC",
+  "url": "https://arxiv.org/abs/2310.03903",
+  "description": "Pure-coordination multi-agent benchmark: LLM agents act as proactive participants in four coordination games (Agentic Coordination), plus 198 multiple-choice CoordQA questions testing environment comprehension, Theory-of-Mind reasoning, and joint planning.",
+  "license": "n/a",
+  "category": "benchmark",
+  "verified": true,
+  "source_url": "https://arxiv.org/abs/2310.03903",
+  "status": "active",
+  "gotchas": [
+   "UCSC, arXiv 2023 (v3 2025); code at github.com/eric-ai-lab/llm_coordination per the paper (license not confirmed)"
+  ]
+ },
+ {
+  "name": "MindAgent",
+  "vendor": "academia",
+  "url": "https://arxiv.org/abs/2309.09971",
+  "description": "Gaming-interaction infrastructure for multi-agent planning and coordination, with the CUISINEWORLD benchmark dispatching an LLM coordinator and multiple agents to play simultaneously, scored by the CoS (collaboration efficiency) auto-metric.",
+  "license": "n/a",
+  "category": "benchmark",
+  "verified": true,
+  "source_url": "https://arxiv.org/abs/2309.09971",
+  "status": "active",
+  "gotchas": [
+   "NAACL 2024 Findings; also covers human-NPC collaboration; code at github.com/mindagent/mindagent (license not confirmed)"
+  ]
+ },
+ {
+  "name": "MultiAgentBench",
+  "vendor": "UIUC",
+  "url": "https://arxiv.org/abs/2503.01935",
+  "description": "Multi-agent-native benchmark on the MARBLE (Multi-Agent Coordination Backbone with LLM Engine) framework spanning 6 domains — research proposals, Minecraft building, coding, database error analysis (collaborative) plus Werewolf and bargaining (competitive) — with milestone-based KPIs comparing coordination topologies (star/chain/tree/graph).",
+  "license": "n/a",
+  "category": "benchmark",
+  "verified": true,
+  "source_url": "https://arxiv.org/abs/2503.01935",
+  "status": "active",
+  "gotchas": [
+   "ACL 2025 (arXiv:2503.01935); original repo ulab-uiuc/MARBLE, also mirrored at MultiagentBench/MARBLE; repo license not confirmed"
+  ]
+ },
+ {
+  "name": "SOTopia",
+  "vendor": "sotopia-lab",
+  "url": "https://github.com/sotopia-lab/sotopia",
+  "description": "Open-ended social-interaction environment where LLM agents role-play characters with private goals across 90 social scenarios (negotiation, collaboration, competition), scored on goal completion and 7 social dimensions via SOTopia-Eval.",
+  "license": "MIT",
+  "category": "benchmark",
+  "verified": true,
+  "source_url": "https://github.com/sotopia-lab/sotopia",
+  "status": "active",
+  "gotchas": [
+   "ICLR 2024 spotlight; dyadic by default, SOTopia-S4 extends to multi-party; requires LLM API key + Redis to run"
+  ]
+ },
+ {
+  "name": "AgentMail",
+  "vendor": "AgentMail",
+  "url": "https://www.agentmail.to/",
+  "description": "Email infrastructure built specifically for AI agents: programmatic inboxes (thousands of unique addresses via API), full send/receive, native threading, allowlists/blocklists, webhooks + WebSockets for event-driven agent communication.",
+  "license": "proprietary",
+  "category": "coordination",
+  "verified": true,
+  "source_url": "https://www.agentmail.to/",
+  "status": "active",
+  "gotchas": [
+   "Commercial hosted product (official site agentmail.to; free tier with 3 inboxes)",
+   "Coordination angle: gives each agent its own identity for async two-way messaging"
+  ]
+ },
+ {
+  "name": "Cognee",
+  "vendor": "Topoteretes",
+  "url": "https://github.com/topoteretes/cognee",
+  "description": "Open-source memory control plane for agents: an Extract-Cognify-Load pipeline builds a self-hosted typed knowledge graph (Kuzu/LanceDB/SQLite) plus vector + relational stores so agents share persistent long-term memory across sessions.",
+  "license": "Apache-2.0",
+  "category": "coordination",
+  "verified": true,
+  "source_url": "https://github.com/topoteretes/cognee",
+  "status": "active",
+  "gotchas": [
+   "Apache-2.0",
+   "Emphasizes cross-agent knowledge sharing, tenant isolation, traceability/audit; ~30k stars",
+   "Commercial Cognee Cloud tier exists"
+  ]
+ },
+ {
+  "name": "Graphiti",
+  "vendor": "Zep",
+  "url": "https://github.com/getzep/graphiti",
+  "description": "Zep's open-source temporal knowledge-graph engine for AI agents: incrementally builds bi-temporal entity/fact graphs (Neo4j, FalkorDB, Neptune) with hybrid semantic + BM25 + graph-traversal retrieval, no LLM calls at query time.",
+  "license": "Apache-2.0",
+  "category": "coordination",
+  "verified": true,
+  "source_url": "https://github.com/getzep/graphiti",
+  "status": "active",
+  "gotchas": [
+   "See the official source for current details."
+  ]
+ },
+ {
+  "name": "LangGraph Checkpointing",
+  "vendor": "LangChain",
+  "url": "https://docs.langchain.com/oss/python/langgraph/persistence",
+  "description": "Built-in state persistence for LangGraph agent workflows: a checkpointer snapshots full graph state after every super-step into threads (SQLite, Postgres, Redis, MongoDB), enabling pause/resume, time-travel debugging, and human-in-the-loop.",
+  "license": "MIT",
+  "category": "coordination",
+  "verified": true,
+  "source_url": "https://docs.langchain.com/oss/python/langgraph/persistence",
+  "status": "active",
+  "gotchas": [
+   "Not a standalone repo — a LangGraph feature (LangGraph itself is MIT)",
+   "Companion BaseStore provides cross-thread shared memory (PostgreSQL/Redis/in-memory) used by LangMem"
+  ]
+ },
+ {
+  "name": "LangMem",
+  "vendor": "LangChain",
+  "url": "https://github.com/langchain-ai/langmem",
+  "description": "LangChain's official long-term memory SDK for LangGraph agents: extracts and consolidates semantic, episodic, and procedural memories (incl. self-improving system-prompt optimization) backed by LangGraph's BaseStore.",
+  "license": "MIT",
+  "category": "coordination",
+  "verified": true,
+  "source_url": "https://github.com/langchain-ai/langmem",
+  "status": "active",
+  "gotchas": [
+   "MIT",
+   "Extraction/consolidation layer over LangGraph storage, not a standalone DB; namespace isolation for multi-tenant memory; agent-facing manage/search memory tools"
+  ]
+ },
+ {
+  "name": "Letta",
+  "vendor": "Letta",
+  "url": "https://github.com/letta-ai/letta",
+  "description": "Platform for stateful AI agents with self-improving memory (formerly MemGPT, from the UC Berkeley research project): OS-inspired hierarchical memory (core blocks + archival recall) so agents persist and compound knowledge across sessions.",
+  "license": "Apache-2.0",
+  "category": "coordination",
+  "verified": true,
+  "source_url": "https://github.com/letta-ai/letta",
+  "status": "active",
+  "gotchas": [
+   "Apache-2.0 confirmed via GitHub repo metadata"
+  ]
+ },
+ {
+  "name": "Mem0",
+  "vendor": "Mem0 AI",
+  "url": "https://github.com/mem0ai/mem0",
+  "description": "Universal memory layer for AI agents: extracts facts from conversations into user/agent/session-scoped long-term memory with hybrid semantic + keyword + entity retrieval; the standard drop-in memory API for multi-agent apps.",
+  "license": "Apache-2.0",
+  "category": "coordination",
+  "verified": true,
+  "source_url": "https://github.com/mem0ai/mem0",
+  "status": "active",
+  "gotchas": [
+   "Apache-2.0 OSS repo plus managed Mem0 Platform (commercial)",
+   "Self-hostable with 20+ vector-store backends; optional graph backends (Neo4j, Memgraph, Kuzu)"
+  ]
+ },
+ {
+  "name": "Redis Agent Memory",
+  "vendor": "Redis",
+  "url": "https://github.com/redis/agent-memory-server",
+  "description": "Redis's managed memory layer for AI agents (part of Redis Iris, their real-time context engine): two-tier model with session memory (configurable TTL) and background promotion of extracted facts to long-term vector-backed memory.",
+  "license": "Apache-2.0",
+  "category": "coordination",
+  "verified": true,
+  "source_url": "https://github.com/redis/agent-memory-server",
+  "status": "active",
+  "gotchas": [
+   "Apache License 2.0 per official README on the repo (opened 2026-09-29)",
+   "Repo is the research/open foundation; the production distribution is Redis Agent Memory in Iris via Redis Cloud",
+   "Ships MCP server interface"
+  ]
+ },
+ {
+  "name": "SuperMemory",
+  "vendor": "Supermemory",
+  "url": "https://github.com/supermemoryai/supermemory",
+  "description": "Memory and context engine + API for the AI era: embeddings-based hybrid RAG + fact memory + evolving user profiles, with a hosted platform and a self-hostable local binary.",
+  "license": "MIT",
+  "category": "coordination",
+  "verified": true,
+  "source_url": "https://github.com/supermemoryai/supermemory",
+  "status": "active",
+  "gotchas": [
+   "MIT (repo LICENSE)",
+   "Cloud-first with self-host local binary; official plugins for Claude Code, Cursor, Codex, OpenCode, OpenClaw + MCP server at mcp.supermemory.ai/mcp",
+   "Note: v0.0.7+ release notes mention a 10,000-document cap on self-hosted ('supermemory lite')"
+  ]
+ },
+ {
+  "name": "Zep",
+  "vendor": "Zep",
+  "url": "https://www.getzep.com",
+  "description": "Commercial agent-memory platform that stores agent memory as temporal knowledge graphs — facts carry validity intervals so agents track what was true vs. what is true now.",
+  "license": "proprietary",
+  "category": "coordination",
+  "verified": true,
+  "source_url": "https://www.getzep.com",
+  "status": "active",
+  "gotchas": [
+   "Managed product (Zep Cloud) is commercial/closed; open-source Community Edition deprecated April 2025 in favor of Graphiti",
+   "Treat acquisition claim as unconfirmed"
+  ]
+ }
+]

@@ -1318,5 +1318,19 @@
    "Managed product (Zep Cloud) is commercial/closed; open-source Community Edition deprecated April 2025 in favor of Graphiti",
    "Treat acquisition claim as unconfirmed"
   ]
+ },
+ {
+  "name": "5dive",
+  "vendor": "5dive",
+  "url": "https://5dive.ai/?utm_source=directory&utm_medium=referral&utm_campaign=multiagentswf",
+  "description": "A company of AI agents on a server you own. You text them like coworkers.",
+  "license": "MIT",
+  "category": "platform",
+  "verified": false,
+  "source_url": "https://github.com/5dive-ai/5dive",
+  "status": "commercial",
+  "gotchas": [
+   "free and open source to self-host. Managed servers are paid, with a free trial."
+  ]
  }
 ]

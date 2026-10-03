@@ -319,6 +319,22 @@
   ]
  },
  {
+  "name": "Tale",
+  "vendor": "Tale Project",
+  "url": "https://github.com/tale-project/tale",
+  "description": "Shared project workspace where a manager agent delegates tasks to configured agents in persistent sandboxes and people review reports and deliverables.",
+  "license": "MIT",
+  "category": "platform",
+  "verified": true,
+  "source_url": "https://docs.tale.dev/platform/projects/task-automation",
+  "status": "active",
+  "gotchas": [
+   "Requires configured providers/runtimes and available sandbox capacity.",
+   "Human review remains separate from manager-agent delegation.",
+   "MIT self-hosted software; managed deployment also available."
+  ]
+ },
+ {
   "name": "Amazon Bedrock Agents — Multi-Agent Collaboration",
   "vendor": "AWS",
   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/agents-multi-agent-collaboration.html",

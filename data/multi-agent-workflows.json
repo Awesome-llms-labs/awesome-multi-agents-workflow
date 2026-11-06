@@ -1318,5 +1318,21 @@
    "Managed product (Zep Cloud) is commercial/closed; open-source Community Edition deprecated April 2025 in favor of Graphiti",
    "Treat acquisition claim as unconfirmed"
   ]
+ },
+ {
+  "name": "WorkStep",
+  "vendor": "xzregg",
+  "url": "https://github.com/xzregg/workstep",
+  "description": "Coordinates coding-agent workflow steps through explicit output/input handoffs and configured human review checkpoints.",
+  "license": "Apache-2.0",
+  "category": "infra",
+  "verified": true,
+  "source_url": "https://github.com/xzregg/workstep",
+  "status": "active",
+  "gotchas": [
+   "Engine authentication and model service fees are separate.",
+   "External model providers may receive task context.",
+   "Desktop packages are unsigned early access."
+  ]
  }
 ]

@@ -1043,6 +1043,20 @@
   ]
  },
  {
+  "name": "MultiAgent-OPD",
+  "vendor": "Alibaba Group / Zhejiang University",
+  "url": "https://arxiv.org/abs/2610.23234",
+  "description": "Jointly trains a Leader, Searchers, and an Answerer for open-domain QA, using outcome rewards for delegation and answering and token-level teacher feedback for search.",
+  "license": "n/a",
+  "category": "research",
+  "verified": true,
+  "source_url": "https://arxiv.org/abs/2610.23234",
+  "status": "active",
+  "gotchas": [
+   "arXiv preprint (2026); training code is not linked in the paper."
+  ]
+ },
+ {
   "name": "Multiagent Debate",
   "vendor": "academia",
   "url": "https://arxiv.org/abs/2305.14325",
